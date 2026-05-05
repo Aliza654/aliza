@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doll Paradise</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>?? Doll Paradise</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#dolls">Dolls</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Beautiful Dolls Collection</h2>
+    <p>Find your perfect doll friend today!</p>
+    <button onclick="showMessage()">Shop Now</button>
+</section>
+
+<section id="dolls" class="products">
+
+    <div class="card">
+        <img src="https://picsum.photos/300?random=1">
+        <h3>Princess Doll</h3>
+        <p>$25</p>
+        <button onclick="addToCart('Princess Doll')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/300?random=2">
+        <h3>Barbie Doll</h3>
+        <p>$30</p>
+        <button onclick="addToCart('Barbie Doll')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/300?random=3">
+        <h3>Teddy Doll</h3>
+        <p>$20</p>
+        <button onclick="addToCart('Teddy Doll')">Add to Cart</button>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button onclick="sendMessage()">Send</button>
+</section>
+
+<footer>
+    <p>© 2026 Doll Paradise</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
